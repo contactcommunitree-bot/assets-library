@@ -1,12 +1,12 @@
 {
   "github": {
-    "user": "REPLACE_WITH_GITHUB_USERNAME",
+    "user": "contactcommunitree-bot",
     "repo": "assets-library",
     "branch": "main"
   },
   "site": {
-    "title": "Asset Library — tndwwt",
-    "subdomain": "assets.tndwwt.org"
+    "title": "Asset Library",
+    "url": "https://contactcommunitree-bot.github.io/assets-library/"
   },
   "taxonomy": {
     "organizations": [

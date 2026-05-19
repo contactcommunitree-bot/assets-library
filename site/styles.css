@@ -49,6 +49,15 @@ body {
 }
 .brand h1 { margin: 0; font-size: 16px; font-weight: 600; }
 .brand .meta { margin: 2px 0 0; font-size: 12px; color: var(--fg-dim); }
+.repo-link {
+  font-size: 12px;
+  color: var(--fg-dim);
+  text-decoration: none;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+.repo-link:hover { color: var(--fg); border-color: var(--accent-2); }
 .search {
   flex: 0 1 380px;
   padding: 10px 14px;
