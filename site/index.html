@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Asset Library</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <h1>Asset Library</h1>
+      <p class="meta" id="meta">Loading…</p>
+    </div>
+    <input
+      id="search"
+      class="search"
+      type="search"
+      placeholder="Search filename, alt text, tags…"
+      autocomplete="off"
+      autofocus>
+  </header>
+
+  <section class="filters">
+    <div class="filter-row" data-dimension="org">
+      <span class="filter-label">Organization</span>
+      <div class="pills" id="org-pills"></div>
+    </div>
+    <div class="filter-row" data-dimension="campaign">
+      <span class="filter-label">Campaign</span>
+      <div class="pills" id="campaign-pills"></div>
+    </div>
+    <div class="filter-row" data-dimension="type">
+      <span class="filter-label">Asset type</span>
+      <div class="pills" id="type-pills"></div>
+    </div>
+  </section>
+
+  <main>
+    <div id="empty" class="empty hidden">
+      <h2>No assets match those filters</h2>
+      <p>Clear filters or drop new files into <code>assets/&lt;org&gt;/&lt;type&gt;/</code> and push.</p>
+    </div>
+    <div id="grid" class="grid"></div>
+  </main>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="./app.js" type="module"></script>
+</body>
+</html>

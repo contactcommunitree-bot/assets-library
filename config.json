@@ -1,0 +1,48 @@
+{
+  "github": {
+    "user": "REPLACE_WITH_GITHUB_USERNAME",
+    "repo": "assets-library",
+    "branch": "main"
+  },
+  "site": {
+    "title": "Asset Library — tndwwt",
+    "subdomain": "assets.tndwwt.org"
+  },
+  "taxonomy": {
+    "organizations": [
+      { "slug": "communitree",   "label": "CommuniTREE" },
+      { "slug": "csr",           "label": "CSR" },
+      { "slug": "ezone",         "label": "Ezone" },
+      { "slug": "art4awareness", "label": "Art for Awareness" },
+      { "slug": "save-a-turtle", "label": "Save a Turtle" },
+      { "slug": "fff-makers",    "label": "FFF Makers" },
+      { "slug": "littleleaders", "label": "#littleLEADERS" },
+      { "slug": "tndwwt",        "label": "tndwwt" }
+    ],
+    "types": [
+      { "slug": "logo",       "label": "Logo" },
+      { "slug": "banner",     "label": "Banner" },
+      { "slug": "header",     "label": "Header" },
+      { "slug": "footer",     "label": "Footer" },
+      { "slug": "signature",  "label": "Signature" },
+      { "slug": "icon",       "label": "Icon" },
+      { "slug": "photo",      "label": "Photo" },
+      { "slug": "poster",     "label": "Poster" },
+      { "slug": "background", "label": "Background" },
+      { "slug": "button",     "label": "Button" },
+      { "slug": "cta",        "label": "CTA" },
+      { "slug": "divider",    "label": "Divider" }
+    ],
+    "campaigns": [
+      { "slug": "evergreen",            "label": "Evergreen" },
+      { "slug": "earth-stories-2026",   "label": "Earth Stories 2026" },
+      { "slug": "weekly-newsletter",    "label": "Weekly Newsletter" },
+      { "slug": "toy-ambassador",       "label": "Toy Ambassador" },
+      { "slug": "vermi-composter",      "label": "Vermi Composter" },
+      { "slug": "pet-bottle-hero",      "label": "PET Bottle Hero" },
+      { "slug": "e-waste-collector",    "label": "E-Waste Collector" },
+      { "slug": "unused-medicine",      "label": "Unused Medicine" },
+      { "slug": "soil-healer",          "label": "Soil Healer" }
+    ]
+  }
+}

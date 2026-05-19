@@ -1,0 +1,10 @@
+{
+  "name": "assets-library",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-manifest.mjs",
+    "dev": "npm run build && npx --yes serve site -l 5173"
+  }
+}
